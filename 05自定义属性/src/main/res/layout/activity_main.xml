@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.autoattribute.MainActivity">
+
+    <com.example.autoattribute.MyAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:my_age="100"
+        app:my_name="android04"
+        app:my_background="@drawable/jtx"/>
+
+</android.support.constraint.ConstraintLayout>
