@@ -82,7 +82,7 @@ public class MyViewPager extends ViewGroup {
         //遍历孩子，给每个孩子指定在屏幕的坐标位置
         for (int i = 0; i < getChildCount(); i++) {
             View childView = getChildAt(i);
-            childView.layout(i*getWidth(), 0, (i+1)*getWidth(), getHeight());
+            childView.layout(i*getMeasuredWidth(), 0, (i+1)*getMeasuredWidth(), getMeasuredHeight());
         }
     }
 
